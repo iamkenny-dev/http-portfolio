@@ -1,0 +1,29 @@
+{
+  "name": "http-portfolio",
+  "version": "1.0.0",
+  "description": "Rendering HTML pages using NodeJS HTTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkenny-dev/http-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamkenny-dev/http-portfolio/issues"
+  },
+  "homepage": "https://github.com/iamkenny-dev/http-portfolio#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.0"
+  }
+}
